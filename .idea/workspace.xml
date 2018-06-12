@@ -35,11 +35,11 @@
       <file leaf-file-name="MapsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shaha5249/mymapsapp/MapsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="457" column="1" lean-forward="false" selection-start-line="457" selection-start-column="1" selection-end-line="457" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="158" column="41" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
               <folding>
-                <element signature="e#19471#19472#0" expanded="true" />
-                <element signature="e#19499#19500#0" expanded="true" />
+                <element signature="e#19952#19953#0" expanded="true" />
+                <element signature="e#19980#19981#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="LocationListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/location/LocationListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="221">
               <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding />
             </state>
@@ -96,6 +96,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>locationListenerGPS</find>
+      <find>search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2124,7 +2125,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -2146,6 +2147,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2178,15 +2182,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="device.picker.selection" value="3a255a3" />
+    <property name="device.picker.selection" value="2a220ab" />
     <property name="android.profiler.active" value="true" />
   </component>
   <component name="RunDashboard">
@@ -2369,8 +2370,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2378,11 +2378,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2443,8 +2443,54 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/location/LocationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="67" lean-forward="false" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/debug/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="128" lean-forward="false" selection-start-line="22" selection-start-column="128" selection-end-line="22" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shaha5249/mymapsapp/MapsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2489,8 +2535,8 @@
         <state relative-caret-position="6647">
           <caret line="423" column="72" lean-forward="false" selection-start-line="423" selection-start-column="72" selection-end-line="423" selection-end-column="72" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2535,8 +2581,8 @@
         <state relative-caret-position="5032">
           <caret line="322" column="13" lean-forward="false" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2573,8 +2619,8 @@
         <state relative-caret-position="3910">
           <caret line="256" column="82" lean-forward="false" selection-start-line="256" selection-start-column="82" selection-end-line="256" selection-end-column="82" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2611,8 +2657,8 @@
         <state relative-caret-position="5151">
           <caret line="329" column="5" lean-forward="false" selection-start-line="329" selection-start-column="5" selection-end-line="329" selection-end-column="5" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2649,8 +2695,8 @@
         <state relative-caret-position="2788">
           <caret line="164" column="36" lean-forward="false" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2687,8 +2733,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2725,8 +2771,8 @@
         <state relative-caret-position="2414">
           <caret line="164" column="36" lean-forward="false" selection-start-line="164" selection-start-column="36" selection-end-line="164" selection-end-column="36" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2763,8 +2809,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2801,8 +2847,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2811,6 +2857,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="128" lean-forward="false" selection-start-line="22" selection-start-column="128" selection-end-line="22" selection-end-column="128" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/location/LocationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -2845,21 +2899,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/location/LocationListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/shaha5249/mymapsapp/MapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="457" column="1" lean-forward="false" selection-start-line="457" selection-start-column="1" selection-end-line="457" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="158" column="41" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="41" />
           <folding>
-            <element signature="e#19471#19472#0" expanded="true" />
-            <element signature="e#19499#19500#0" expanded="true" />
+            <element signature="e#19952#19953#0" expanded="true" />
+            <element signature="e#19980#19981#0" expanded="true" />
           </folding>
         </state>
       </provider>

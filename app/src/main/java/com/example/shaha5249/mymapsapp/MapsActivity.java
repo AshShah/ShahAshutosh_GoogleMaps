@@ -52,8 +52,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private static final float MIN_DISTANCE_CHANGE_FOR_UPDATES = 0.0f;
     private static final int MY_LOC_ZOOM_FACTOR=17;
 
-    private LocationListener locationListener;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -135,14 +133,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 if((myLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER)) != null)
                 {
                     userLocation = new LatLng (myLocation.getLatitude(), myLocation.getLongitude());
-                    Log.d("MyMapsApp", "onSearch: using NETWORK_PROVIDER userLocation is: " + myLocation.getLatitude() + myLocation.getLongitude());
-                    Toast.makeText(this, "Userloc: " + myLocation.getLatitude() + myLocation.getLongitude(), Toast.LENGTH_SHORT).show();
+                    Log.d("MyMapsApp", "onSearch: using NETWORK_PROVIDER userLocation is: " + myLocation.getLatitude() + " " + myLocation.getLongitude());
+                    Toast.makeText(this, "Userloc: " + myLocation.getLatitude() + " " + myLocation.getLongitude(), Toast.LENGTH_SHORT).show();
                 }
                 else if((myLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)) != null)
                 {
                     userLocation = new LatLng (myLocation.getLatitude(), myLocation.getLongitude());
                     Log.d("MyMapsApp", "onSearch: using GPS_PROVIDER userLocation is: " + myLocation.getLatitude() + myLocation.getLongitude());
-                    Toast.makeText(this, "Userloc: " + myLocation.getLatitude() + myLocation.getLongitude(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Userloc: " + myLocation.getLatitude() + " " + myLocation.getLongitude(), Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
@@ -157,10 +155,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         if(!location.matches(""))
         {
             //Create Geocoder
+            Log.d("MyMapsApp", "Geocoder about to test");
+            Log.d("MyMapsApp", location);
             Geocoder geocoder = new Geocoder(this, Locale.US);
 
             try
             {
+                Log.d("MyMapsApp", location);
                 addressList = geocoder.getFromLocationName(location, 100,
                         userLocation.latitude - (5.0/60.0),
                         userLocation.longitude - (5.0/60.0),
@@ -170,6 +171,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 Log.d("MyMapsApp", "created addressList" );
             }catch (IOException e)
             {
+                Log.d("MyMapsApp", "Crash at exception e");
                 e.printStackTrace();
             }
 
@@ -181,7 +183,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 {
                     Address address = addressList.get(i);
                     LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
-                    mMap.addMarker(new MarkerOptions().position(latLng).title(i + ": " + address.getSubThoroughfare()));
+                    mMap.addMarker(new MarkerOptions().position(latLng).title(i + ": " + address.getSubThoroughfare() + " " + address.getThoroughfare()));
                     mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
                 }
             }
@@ -436,6 +438,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //if(notTrackingMyLocation) {getLocation(; notTrackingMyLocation=false;}
         // else{removeUpdates for both network and gps; notTrackingMyLocation=true}
 
+        getLocation();
+
         if(notTrackingMyLocation==true)
         {
             getLocation();
@@ -446,6 +450,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         {
             notTrackingMyLocation=true;
             Toast.makeText(this, "not tracking location", Toast.LENGTH_SHORT);
+            locationManager.removeUpdates(locationListenerGPS);
+            locationManager.removeUpdates(locationListenerNetwork);
+        }
+
+        if(notTrackingMyLocation)
+        {
+            getLocation();
+        }
+        else
+        {
             locationManager.removeUpdates(locationListenerGPS);
             locationManager.removeUpdates(locationListenerNetwork);
         }
